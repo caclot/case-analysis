@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "揽收",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "w-barcode": "/node-modules/@uni-ui/code-ui/components/w-barcode/index",
+    "w-qrcode": "/node-modules/@uni-ui/code-ui/components/w-qrcode/index"
+  }
+}

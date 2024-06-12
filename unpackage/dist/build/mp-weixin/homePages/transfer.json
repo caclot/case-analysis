@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "转运快递",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item"
+  }
+}

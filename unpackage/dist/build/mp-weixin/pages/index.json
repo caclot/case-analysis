@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "disableScroll": true,
+  "usingComponents": {
+    "tn-tabbar": "/tuniao-ui/components/tn-tabbar/tn-tabbar",
+    "home": "/pages/home/home",
+    "biz": "/pages/biz/biz",
+    "mine": "/pages/mine/mine"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index"
+  ],
+  "subPackages": [
+    {
+      "root": "homePages",
+      "pages": [
+        "transfer",
+        "signup",
+        "deliver",
+        "pickup"
+      ]
+    },
+    {
+      "root": "minePages",
+      "pages": [
+        "info",
+        "set",
+        "enroll",
+        "login"
+      ]
+    },
+    {
+      "root": "bizPages",
+      "pages": [
+        "pickupPacks",
+        "signupPacks"
+      ]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "图鸟官网",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "requiredPrivateInfos": [
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}

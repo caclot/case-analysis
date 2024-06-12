@@ -1,0 +1,142 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue",
+		"^w-(.*)": "@/uni_modules/wmf-code/components/w-$1/w-$1.vue",
+		"^w-(.*)": "@uni-ui/code-ui/components/w-$1/index.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"mp-weixin": {
+					"disableScroll": true
+				},
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#ff3333",
+						"style": "default",
+						"contentdown": {
+							"caption": "下拉获取包裹信息"
+						},
+						"contentover": {
+							"caption": "包裹信息更新完成"
+						},
+						"contentrefresh": {
+							"caption": "正在获取包裹信息"
+						}
+					}
+				},
+				"enablePullDownRefresh": true,
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"mp-baidu": {
+					"disableScroll": true
+				}
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "homePages",
+			"pages": [{
+					"path": "transfer",
+					"style": {
+						"navigationBarTitleText": "转运快递",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "signup",
+					"style": {
+						"navigationBarTitleText": "签收快件",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "deliver",
+					"style": {
+						"navigationBarTitleText": "派送快件",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pickup",
+					"style": {
+						"navigationBarTitleText": "揽收快件",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "split",
+					"style": {
+						"navigationBarTitleText": "拆分包裹",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+
+
+		{
+			"root": "minePages",
+			"pages": [{
+					"path": "info",
+					"style": {
+						"navigationBarTitleText": "个人信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "set",
+					"style": {
+						"navigationBarTitleText": "设置",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "enroll",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		
+		{
+			
+				"root": "bizPages",
+				"pages": [{
+						"path": "pickupPacks",
+						"style": {
+							"navigationBarTitleText": "揽收",
+							"enablePullDownRefresh": false
+						}
+					},
+					{
+						"path": "signupPacks",
+						"style": {
+							"navigationBarTitleText": "签收",
+							"enablePullDownRefresh": false
+						}
+					}
+				]
+			
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "卓越快递",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

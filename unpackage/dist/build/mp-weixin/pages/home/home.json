@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tn-tabs-swiper": "/tuniao-ui/components/tn-tabs-swiper/tn-tabs-swiper",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "update-package-modal": "/commPages/UpdatePackageModal"
+  }
+}

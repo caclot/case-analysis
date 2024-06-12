@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uni_modules/tuniaoui-wx-user-info/components/tuniaoui-wx-user-info/tuniaoui-wx-user-info"],{1792:function(t,n,e){"use strict";var a=e("5146"),u=e.n(a);u.a},5146:function(t,n,e){},"7a12":function(t,n,e){"use strict";e.r(n);var a=e("a7b3"),u=e("7f08");for(var i in u)["default"].indexOf(i)<0&&function(t){e.d(n,t,(function(){return u[t]}))}(i);e("1792");var o=e("f0c5"),r=Object(o["a"])(u["default"],a["b"],a["c"],!1,null,"4ba42879",null,!1,a["a"],void 0);n["default"]=r.exports},"7f08":function(t,n,e){"use strict";e.r(n);var a=e("b441"),u=e.n(a);for(var i in a)["default"].indexOf(i)<0&&function(t){e.d(n,t,(function(){return a[t]}))}(i);n["default"]=u.a},a7b3:function(t,n,e){"use strict";e.d(n,"b",(function(){return a})),e.d(n,"c",(function(){return u})),e.d(n,"a",(function(){}));var a=function(){var t=this.$createElement;this._self._c},u=[]},b441:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={options:{virtualHost:!0},props:{value:{type:Boolean,default:!1}},data:function(){return{openModal:!1,userInfo:{avatar:"",nickname:""}}},watch:{value:{handler:function(t){this.openModal=t},immediate:!0}},methods:{chooseAvatarEvent:function(t){this.userInfo.avatar=t.detail.avatarUrl},submitUserInfo:function(){if(!this.userInfo.avatar||!this.userInfo.nickname)return t.showToast({icon:"none",title:"请选择头像和输入用户信息"});this.$emit("updated",this.userInfo)},closeModal:function(){this.$emit("input",!1)}}};n.default=e}).call(this,e("543d")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uni_modules/tuniaoui-wx-user-info/components/tuniaoui-wx-user-info/tuniaoui-wx-user-info-create-component',
+    {
+        'uni_modules/tuniaoui-wx-user-info/components/tuniaoui-wx-user-info/tuniaoui-wx-user-info-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7a12"))
+        })
+    },
+    [['uni_modules/tuniaoui-wx-user-info/components/tuniaoui-wx-user-info/tuniaoui-wx-user-info-create-component']]
+]);

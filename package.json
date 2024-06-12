@@ -1,0 +1,24 @@
+{
+    "id": "zhuoyue-pack",
+    "name": "卓越快递",
+    "displayName": "卓越快递",
+    "version": "1.2.0",
+    "description": "郑州大学2021级软件工程（卓越工程师）案例分析与设计作业",
+    "keywords": [
+        "图鸟",
+        "模板",
+        "酷炫",
+        "前端",
+        "页面模板"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "前端页面模板"
+        ]
+    },
+    "dependencies": {
+        "@uni-ui/code-ui": "^1.5.3",
+        "vant": "^4.9.1"
+    }
+}
